@@ -1,0 +1,5 @@
+Username : tahir.ansari@k8s.support
+Password : {,LeApHOOL,18
+Webmail URL : https://mail.k8s.support/SOGo/
+POP/IMAP server : mail.k8s.support
+SMTP server : mail.k8s.support

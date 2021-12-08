@@ -1,0 +1,15 @@
+1. Create a MySQL or MariaDB sample database on your standalone host 
+2. Make sure that you can access it from other/remote hosts 
+3. Default user could be used as root and port could be used as 3306 for both the databases. 
+4. use following commands for the grants of access for any user from which you are connecting from outside world:
+you can also check the users which are permitted for the connection from outside world: 
+
+https://www.jamescoyle.net/how-to/221...
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'your_password' WITH GRANT OPTION; -- or any other user with whom you want to do the migration
+
+
+for more information, you can use this link
+https://mariadb.com/kb/en/library/con...
+
+5. Once your source database is ready - go to AWS console and open Data Migration Services
